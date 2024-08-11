@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* Nav-Section-Start */
+
+.nav-container {
+    background-color: black;
+    color: white;
+    width: 1520px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 180px;
+}
+
+.nav-logo {
+    margin-left: 190px;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    color: white;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    margin-right: 90px;
+}
+
+.btn-1 {
+    border-radius: 50px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.btn-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-2 {
+    border-radius: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.btn-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn i {
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+/* Nav-Section-End */
+
+/* Her0-Section-Start */
+
+.two-div-con {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    gap: 40px;
+    align-items: center;
+    margin-left: 14%;
+
+}
+
+.div-1 {
+    width: 35%;
+    height: 70%;
+    border: 1px solid white;
+}
+
+.div-1 img {
+    padding-right: 380px;
+    transition-duration: 0.5s;
+}
+
+.div-2 {
+    width: 35%;
+    height: 70%;
+    border: 1px solid white;
+
+}
+
+.div-2 img {
+    padding-right: 380px;
+    transition-duration: 0.5s;
+}
+
+/* Hero-Section-End */
+
+/* Branches-Section-Start */
+
+.text-con {
+    color: white;
+    text-align: center;
+
+}
+
+.text-con h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+
+}
+
+.text-con h5 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.text-con p {
+    margin-top: 10px;
+    color: grey;
+}
+
+/* Branches-Section-End */
+
+/* Footer-Section-Start */
+
+footer {
+    background-color: rgb(21, 21, 21);
+    padding-top: 8px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 80px;
+    gap: 40px;
+    margin-top: 140px;
+}
+
+.col {
+    width: 25vw;
+    height: 70vh;
+}
+
+.col h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.col a {
+    color: grey;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.col-last {
+    width: 25vw;
+    height: 70vh;
+}
+
+.col-last h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.p-footer {
+    color: grey;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p-foot {
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma,
+        Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.links-img1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* Last-Footer-Start */
+.last-footer {
+    background-color: black;
+    color: grey;
+    text-align: center;
+    border-top: 1px solid grey;
+    height: 4vh;
+}
+
+.last-footer p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Last-Footer-End */
+
+/* Footer-Section-End */

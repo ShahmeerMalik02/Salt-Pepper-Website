@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "your-font";
+    src: url(./font/futurak.ttf);
+}
+body {
+    background-color: black;
+}
+
+/* Nav-Section-Start */
+
+.nav-container {
+    background-color: black;
+    color: white;
+    width: 1520px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 180px;
+    border-bottom: 1px solid rgb(77, 76, 76);
+}
+
+.nav-logo {
+    margin-left: 190px;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    color: white;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    margin-right: 90px;
+}
+
+.btn-1 {
+    border-radius: 50px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.btn-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-2 {
+    border-radius: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.btn-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn i {
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+/* Nav-Section-End */
+
+/* Text-Content-Start */
+
+.text-container {
+    width: 100vw;
+    height: 80vh;
+    color: grey;
+}
+
+.text-container h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-weight: lighter;
+}
+
+.text-container p {
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Text-Content-End */
+
+/* Cards-Section-Start */
+
+.card-cont {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card-1 {
+    display: flex;
+    width: 90vw;
+    height: 40vh;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 90px;
+    margin-bottom: 80px;
+}
+
+.box-1 {
+    width: 100vw;
+    height: 40vh;
+    margin-left: 20px;
+}
+
+.card-btw-hd{
+    color: white;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.single-card-btw-hd span{
+    font-family: "your-font";
+}
+
+.box-1 h1 {
+    font-size: 42px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.box-1 span{
+    font-family: "your-font";
+}
+
+.box-1 p {
+    padding-top: 16px;
+    color: grey;
+}
+/* Cards-Section-End */
+
+/* Single-Card-Section-Start */
+
+.single-card-btw-hd{
+font-size: 36px;
+color: white;
+text-align: center;
+padding-top: 70px;
+}
+
+.single-card-btw-p{
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    padding-top: 30px;
+    }
+
+ /* Single-card-section-End */
+
+ /* Grid-Section-Start */
+
+.grid-section{
+    width: 100vw;
+    height: 100vh;
+}
+.grid-section h1{
+    font-size: 34px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+ .grid-section span{
+    font-size: 44px;
+    font-weight: bolder;
+    font-family: "your-font";
+ }  
+
+   
+.card-container-grid{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-right: 40px;
+}
+
+
+.grid-card-1{
+    width: 25vw;
+    height: 53vh;
+    border: 1px solid white;
+    color: white;
+    
+}
+ 
+.grid-card-1 h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+ 
+.grid-card-1 p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+.grid-card-2{
+    width: 25vw;
+    height: 53vh;
+    border: 1px solid white;
+    color: white;
+}
+
+.grid-card-2 h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+ 
+.grid-card-2 p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.grid-card-3{
+    width: 25vw;
+    height: 53vh;
+    border: 1px solid white;
+    color: white;
+}
+
+.grid-card-3 h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+ 
+.grid-card-3 p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+
+/* Grid-Section-End */
+
+/* Footer-Section-Start */
+
+footer {
+    background-color: rgb(21, 21, 21);
+    margin-top: 350px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 80px;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.col {
+    width: 25vw;
+    height: 70vh;
+}
+
+.col h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.col a {
+    color: grey;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.col-last {
+    width: 25vw;
+    height: 70vh;
+}
+
+.col-last h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.p-footer {
+    color: grey;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p-foot {
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma,Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.links-img1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* Last-Footer-Start */
+
+.last-footer {
+    background-color: black;
+    color: grey;
+    text-align: center;
+    border-top: 1px solid grey;
+    height: 4vh;
+}
+
+.last-footer p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Last-Footer-End */
+
+/* Footer-Section-End */
+
